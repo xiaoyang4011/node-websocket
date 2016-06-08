@@ -1,0 +1,25 @@
+{
+  "name": "websocket-vue.js",
+  "version": "1.0.0",
+  "description": "chat by socket.io and vue.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoyang4011/node-websocket.git"
+  },
+  "keywords": [
+    "chat-websocket"
+  ],
+  "author": "lxy",
+  "bugs": {
+    "url": "https://github.com/xiaoyang4011/node-websocket/issues"
+  },
+  "homepage": "https://github.com/xiaoyang4011/node-websocket#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.6"
+  }
+}
