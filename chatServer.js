@@ -14,7 +14,7 @@ class ChatServer {
 			socket.on('join', (user) => {
 
 					console.log('User join');
-					socket.on('chat', function(payload) {
+					socket.on('chat',(payload) => {
 						console.log(payload);
 
 						io.emit('chat', payload);
